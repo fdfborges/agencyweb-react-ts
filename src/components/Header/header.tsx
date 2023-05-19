@@ -15,7 +15,7 @@ export function Header() {
                 <button className={styles.buttons}>Serviços</button>
                 <button className={styles.buttons}>Blog</button>
                 <button className={styles.buttons}>Contate-nos</button>
-                
+                <h1>Helo</h1>
             </div>
         </div>
 
