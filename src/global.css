@@ -1,0 +1,17 @@
+:root {
+    --white: #FFFFFF;
+
+    --black: #000000;
+    --black-300: rgb(70, 70, 70);
+    --gray-500: #5C5C5C;
+    --gray-300: #F4F4F4;
+    --blue: #1090CB;
+    --blue-300: #12a5e9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
