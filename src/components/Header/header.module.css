@@ -1,9 +1,4 @@
-body{
-    
-    
-}
-
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,37 +7,39 @@ body{
     height: 5rem;
 
     background-color: var(--white);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.67);
+    z-index: 400!important;
 
-    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.67);
 }
 
 
-.logoContainer{
+.logoContainer {
     display: flex;
-    padding-left: 1.4rem;;
+    padding-left: 1.4rem;
+    
 }
 
-.buttonsContainer{
+.buttonsContainer {
     display: flex;
     gap: 3rem;
     padding-right: 1.4rem;
 }
 
-.buttons{
+.buttons {
     position: relative;
-    
+
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1rem;
-    
+
     color: var(--black);
     background: none;
     border: none;
 }
 
-.buttons:last-child{
+.buttons:last-child {
     color: var(--white);
-    
+
     width: 9rem;
     height: 3rem;
 
@@ -51,12 +48,12 @@ body{
 }
 
 
-.buttons:hover{
+.buttons:hover {
     transition: 0.1s;
-    color: var(--black-300);
+    color: var(--blue);
 }
 
-.buttons:last-child:hover{
+.buttons:last-child:hover {
     transition: 0.1s;
     color: var(--white);
     background-color: var(--blue-300);
