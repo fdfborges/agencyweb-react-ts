@@ -1,4 +1,5 @@
 
+import { Conector } from "../../components/Conector/Conector";
 import { Header } from "../../components/Header/header";
 import { HomePresentation } from "../../components/HomePresentation/HomePresentation";
 
@@ -8,6 +9,8 @@ export function Home(){
         <Header />
         
         <HomePresentation />
+
+        <Conector />
         </>
     )
 }
