@@ -1,0 +1,112 @@
+.containerPrincipalCard {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    width: 99%;
+    height: 16rem;
+
+    margin-bottom: 13rem;
+    
+}
+
+.containerRight {
+    display: flex;
+    align-items: center;
+    width: calc(50%);
+    height: 20rem;
+    
+}
+
+.containerRight img {
+    display: flex;
+    position: absolute;
+    margin-bottom: 5rem;
+    right: 4rem;
+    height: 23rem;
+    z-index: -400;
+}
+
+.containerLeft {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 5rem);
+    height: 20rem;
+
+    padding-left: 6rem;
+
+    gap: 1rem;
+
+    margin-bottom: 10rem;
+}
+
+.containerTitle {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.containerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 3.65rem;
+    height: 3.65rem;
+    background-color: #9208D3;
+    border-radius: 100%;
+}
+
+.containerImg img {
+    width: 1.8rem;
+}
+
+
+.containerTextTitle {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--black);
+
+}
+
+.descriptionCard {
+    font-size: 0.80rem;
+    font-weight: 400;
+    color: var(--gray-500);
+}
+
+.containerContentCard {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    gap: 1rem;
+
+
+}
+
+.containerContentCard h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 170%;
+    color: var(--black-500);
+    text-align: initial;
+
+}
+
+.containerContentCard h3 {
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+
+.containerContentCard strong {
+    color: var(--blue);
+}
