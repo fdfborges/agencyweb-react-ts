@@ -6,11 +6,12 @@ import Programmer from '../../../public/assets/ProgramerHome.svg'
 export function HomePresentation() {
     return (
         <>
+            <div className={styles.teste}><img className={styles.img} src={Programmer} alt="" /></div>
             <div className={styles.background}>
                 {/* <img className={styles.recortLeft} src={leftRecort} alt="" /> */}
                 {/* <img className={styles.recortRight} src={rightRecort} alt="" /> */}
                 <div className={styles.containerContent}>
-                    <img className={styles.img} src={Programmer} alt="" />
+                
                     <div className={styles.containerText}>
                         <span className={styles.copy}> Construindo e medindo soluções <strong>móveis, web e websites</strong> de sucesso com expertise.</span>
                         <span className={styles.description}>KODEX TECHNOLOGY (PVT) LTD é uma equipe de experientes construtores de aplicativos móveis, web e websites, com dezenas de projetos concluídos. Nós construímos e desenvolvemos aplicativos móveis para diversas plataformas líderes, incluindo Android & iOS.</span>

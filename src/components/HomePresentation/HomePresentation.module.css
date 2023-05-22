@@ -46,6 +46,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: var(--gray-500);
+    line-height: 1.5;
 }
 
 .containerButton{
@@ -68,6 +69,7 @@
 
     border-radius: 10px;
     border: 2px solid var(--blue);
+    cursor: pointer;
 }
 .buttons:last-child{
     background-color: var(--white);
@@ -86,14 +88,23 @@
     background-color: var(--blue);
 }
 
+.teste{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    right: 2rem;
+    bottom: 10rem;
+    z-index: -300;
+    
+}
+
 .img{
     position: absolute;
-    width: 32rem;
-    right: 7rem;
-    bottom: 1rem;
-    z-index: -1;
+    max-width: 38rem;
 
 }
+
+
 
 /* .recortLeft{
     

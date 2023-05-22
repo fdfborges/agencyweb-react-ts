@@ -1,9 +1,10 @@
-.container {
+header{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    width: 100%;
+    width: auto;
     height: 5rem;
 
     background-color: var(--white);
@@ -11,6 +12,7 @@
     z-index: 400!important;
 
 }
+
 
 
 .logoContainer {
@@ -35,6 +37,7 @@
     color: var(--black);
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 .buttons:last-child {

@@ -3,7 +3,7 @@ import LogoIpsum from '../../../public/assets/logo.svg'
 
 export function Header() {
     return (
-        <div className={styles.container}>
+        <header className={styles.container}>
             <div className={styles.logoContainer}>
                 <img className={styles.logo} src={LogoIpsum} alt="" />
                 
@@ -16,7 +16,7 @@ export function Header() {
                 <button className={styles.buttons}>Blog</button>
                 <button className={styles.buttons}>Contate-nos</button>
             </div>
-        </div>
+        </header>
 
     )
 
