@@ -84,8 +84,7 @@
 
 .buttons:last-child:hover{
     transition:  0.2s;
-    color: var(--white);
-    background-color: var(--blue);
+    background-color: var(--gray-300);
 }
 
 .teste{
