@@ -18,6 +18,7 @@ header{
 .logoContainer {
     display: flex;
     padding-left: 1.4rem;
+    cursor: pointer;
     
 }
 

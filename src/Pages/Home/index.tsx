@@ -1,4 +1,5 @@
 
+import { ButtonBackToTop } from "../../components/ButtonBackToTop/ButtonBackToTop";
 import { Conector } from "../../components/Conector/Conector";
 import { CustomersTrust } from "../../components/Customerstrust/CustomersTrust";
 import { Footer } from "../../components/Footer/Footer";
@@ -16,6 +17,8 @@ export function Home() {
             <Header />
 
             <HomePresentation />
+
+            <ButtonBackToTop />
 
             <Conector />
 

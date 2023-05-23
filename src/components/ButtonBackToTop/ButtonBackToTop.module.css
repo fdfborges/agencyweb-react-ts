@@ -1,0 +1,31 @@
+.btnBackToTop{
+    position: fixed;
+
+    bottom: 2rem;
+    right: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 2.5rem;
+    height: 2.5rem;
+    
+    background-color: var(--blue-700);
+    border: none;
+    border-radius: 100%;
+
+    cursor: pointer;
+
+    z-index: 9999;
+}
+
+.btnBackToTop:hover{
+    transition: 0.2s;
+    background-color: var(--blue-300);
+}
+
+.btnBackToTop img{
+    stroke: white;
+    height: 1.7rem;
+}

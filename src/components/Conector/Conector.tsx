@@ -7,7 +7,7 @@ import Mobileconector from '../../../public/assets/conector/Mobileconector.svg'
 export function Conector() {
     return (
         <>
-            <div className={styles.containerPrincipalCard}>
+            <div id='AnchorConector' className={styles.containerPrincipalCard}>
             <div className={styles.containerCard}>
                 <div className={styles.containerImg1}>
                     <img  className={styles.imgCard} src={Webconector} alt="" />
