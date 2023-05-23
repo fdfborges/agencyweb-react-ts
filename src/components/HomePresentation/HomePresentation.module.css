@@ -2,7 +2,7 @@
     display: flex;
 
     width: 100%;
-    height: 35rem;
+    height: 40rem;
     background: rgba(16, 144, 203, 0.1);
     z-index: -1;
 }
@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: start;
     padding-left: 6rem;
-    margin-top: 4rem;
+    margin-top: 9rem;
     width: 42%;
     gap: 3rem;
 
@@ -92,7 +92,7 @@
     justify-content: right;
     position: relative;
     right: 2rem;
-    bottom: 10rem;
+    bottom: 5rem;
     z-index: -300;
     
 }
