@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 25rem;
+
+    gap: 4rem;
+
+    background-color: var(--blue-100);
+
+    margin-bottom: 1rem;
+
+}
+
+.container h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 1.5;
+
+
+    text-align: center;
+
+    color: var(--black-500);
+}
+
+
+.inputandbtn{
+    display: flex;
+    
+    gap: 1rem;
+    
+}
+
+.inputandbtn input {
+    width: 30rem;
+    height: 3rem;
+
+    border-radius: 6px;
+    padding-left: 1rem;
+    
+    font-family: 'Poppins';
+    text-align: left;
+
+    border: none;
+    background-color: var(--white);
+}
+
+.inputandbtn button {
+    width: 9rem;
+    height: 3rem;
+
+    border-radius: 6px;
+    border: none;
+
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.inputandbtn button:hover{
+    transition: background-color 0.2s;
+    background-color: var(--gray-500);
+}

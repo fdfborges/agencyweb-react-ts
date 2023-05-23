@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     gap: 3rem;
-    margin-bottom: 13rem;
+    margin-bottom: 10rem;
 }
 
 .block {
@@ -52,7 +52,7 @@
     
 
     border-radius: 10px;
-    background-color: var(--blue);
+    background-color: var(--blue-700);
 
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -90,21 +90,22 @@
     
 
     border-radius: 10px;
-    border: 2px solid var(--blue);
+    border: none;
     cursor: pointer;
 }
 
 .btnviewmore1{
     color: var(--white);
-    background-color: var(--blue);
+    background-color: var(--blue-700);
 }
 
 .btnviewmore2{
-    color: var(--blue);
+    color: var(--blue-700);
     background-color: var(--white);
 }
 
 .btnviewmore1:hover{
+    
     transition: 0.2s;
     background-color: var(--blue-300);
 }

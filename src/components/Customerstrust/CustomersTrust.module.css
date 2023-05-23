@@ -1,0 +1,26 @@
+.container{
+    margin-bottom: 3rem;    
+}
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 159%;
+    color: var(--black);
+    margin-bottom: 0.5rem;
+}
+
+.container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10rem;
+
+    list-style: none;
+}
+
+.container ul img{
+    height: 10rem;
+}
