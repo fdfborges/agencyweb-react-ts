@@ -7,12 +7,25 @@ import Linkedin from '../../../public/assets/FooterImgs/linkedin.svg';
 import twitter from '../../../public/assets/FooterImgs/twitter.svg';
 
 export function Footer() {
+    function scrollToAnchorHomePresentation() {
+        const anchor = document.getElementById("AnchorHomePresentation");
+        if (anchor) {
+            const offset = 50; // Valor do deslocamento em pixels
+            const topPosition = anchor.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({
+                top: topPosition - offset,
+                behavior: 'smooth'
+            });
+        }
+    }
+
+
     return (
         <>
             <footer>
                 <section className={styles.content}>
                     <div className={styles.left}>
-                        <a href="#"><img src={Logo} alt="" /></a>
+                        <a onClick={scrollToAnchorHomePresentation}><img src={Logo} alt="" /></a>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                         <p>@Lorem</p>
                     </div>
