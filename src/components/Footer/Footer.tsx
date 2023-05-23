@@ -52,7 +52,8 @@ export function Footer() {
                     </div>
                 </section>
                 <div className={styles.baseboard}>
-                    <p>Feito com ❤️ por Felipe Borges</p>
+                    <p>Feito com ❤️ por <strong>Felipe Borges</strong></p>
+                    <p>Todos os direitos reservados á Sanoj Dilshan e Agency Web.</p>
                 </div>
             </footer>
         </>
