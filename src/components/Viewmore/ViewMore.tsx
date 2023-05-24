@@ -1,4 +1,4 @@
-import styles from './Viewmore.module.css';
+import styles from './ViewMore.module.css';
 
 export function ViewMore(){
     return(

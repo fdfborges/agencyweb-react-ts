@@ -1,4 +1,4 @@
-.sectionViewMore{
+.sectionViewMore {
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -16,11 +16,11 @@
     align-items: center;
 
     box-sizing: border-box;
-    
+
     padding: 2rem;
     gap: 2rem;
 
-    
+
 
     border-radius: 10px;
     background-color: var(--gray-300);
@@ -34,7 +34,8 @@
     text-align: center;
     box-sizing: border-box;
 }
-.block2{
+
+.block2 {
     display: flex;
     flex-direction: column;
 
@@ -45,11 +46,11 @@
     align-items: center;
 
     box-sizing: border-box;
-    
+
     padding: 2rem;
     gap: 2rem;
 
-    
+
 
     border-radius: 10px;
     background-color: var(--blue-700);
@@ -65,52 +66,50 @@
 
 }
 
-.description1{
+.description1 {
     font-size: 0.70rem;
     font-weight: 400;
     color: var(--gray-500);
 }
 
-.description2{
+.description2 {
     font-size: 0.70rem;
     font-weight: 400;
     color: var(--white);
-    
+
 }
 
-.btnviewmore1, .btnviewmore2{
+.btnviewmore1,
+.btnviewmore2 {
     width: 13rem;
     height: 2.9rem;
 
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    
-
-    
 
     border-radius: 10px;
     border: none;
     cursor: pointer;
 }
 
-.btnviewmore1{
+.btnviewmore1 {
     color: var(--white);
     background-color: var(--blue-700);
 }
 
-.btnviewmore2{
+.btnviewmore2 {
     color: var(--blue-700);
     background-color: var(--white);
 }
 
-.btnviewmore1:hover{
-    
+.btnviewmore1:hover {
+
     transition: 0.2s;
     background-color: var(--blue-300);
 }
 
-.btnviewmore2:hover{
-    transition:  0.2s;
+.btnviewmore2:hover {
+    transition: 0.2s;
     background-color: var(--gray-300);
 }
