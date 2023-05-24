@@ -29,7 +29,7 @@ export function Header() {
         <Link to="/" onClick={scrollToAnchorHomePresentation}><img className={styles.logo} src={LogoIpsum} alt="Logo da Página" /></Link>
       </div>
       <div className={styles.navigationContainer} id='navigationContainerHeader'>
-        <Link to="/" className={`${styles.navigationLinks} ${location.pathname === '/' ? styles.active : ''}`}>Home</Link>
+        <Link to="/" onClick={scrollToAnchorHomePresentation} className={`${styles.navigationLinks} ${location.pathname === '/' ? styles.active : ''}`}>Home</Link>
         <Link to="/sobrenos" className={`${styles.navigationLinks} ${location.pathname === '/sobrenos' ? styles.active : ''}`}>Sobre nós</Link>
         <Link to="" className={styles.navigationLinks}>Serviços</Link>
         <Link to="" className={styles.navigationLinks}>Blog</Link>
