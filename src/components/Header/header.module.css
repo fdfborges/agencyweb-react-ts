@@ -70,11 +70,7 @@ header {
     background-color: var(--blue-300);
 }
 
-.btnResponsiveHeader {
-    /* display: none; */
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
-}
-
+.navigationLinks.active {
+    color: var(--blue-700);
+  }
 
