@@ -1,15 +1,18 @@
-header{
+header {
     position: fixed;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     width: 100%;
     height: 5rem;
+    padding: 0 2%;
+    box-sizing: border-box;
 
     background-color: var(--white);
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.67);
-    z-index: 400!important;
+    z-index: 400 !important;
 
 }
 
@@ -17,18 +20,20 @@ header{
 
 .logoContainer {
     display: flex;
-    padding-left: 1.4rem;
     cursor: pointer;
-    
+
 }
 
-.buttonsContainer {
+.navigationContainer {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 3rem;
-    padding-right: 1.4rem;
+
+
 }
 
-.buttons {
+.navigationLinks {
     position: relative;
 
     font-family: 'Poppins', sans-serif;
@@ -36,12 +41,14 @@ header{
     font-size: 1rem;
 
     color: var(--black);
-    background: none;
-    border: none;
+    text-decoration: none;
     cursor: pointer;
 }
 
-.buttons:last-child {
+.navigationLinks:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--white);
 
     width: 9rem;
@@ -52,13 +59,22 @@ header{
 }
 
 
-.buttons:hover {
+.navigationLinks:hover {
     transition: 0.1s;
     color: var(--blue-700);
 }
 
-.buttons:last-child:hover {
+.navigationLinks:last-child:hover {
     transition: 0.1s;
     color: var(--white);
     background-color: var(--blue-300);
 }
+
+.btnResponsiveHeader {
+    /* display: none; */
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
