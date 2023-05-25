@@ -1,0 +1,176 @@
+.BlockContactUsContainer {
+    display: flex;
+
+    width: 100%;
+    height: 15rem;
+
+    margin-bottom: 10rem;
+    
+}
+
+.recortleft{
+    width: 35px;
+    height: 3.3px;
+    background-color: #4628A4;
+}
+
+.BlockLeft {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blockleftwithPadding{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+
+    box-sizing: border-box;
+    padding-left: 5rem;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.BlockLeft h2 {
+    width: 30rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.3;
+    color: var(--black);
+}
+
+.BlockLeft h3 {
+    width: 21rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    font-size: 0.90rem;
+}
+
+
+
+.BlockLeft button{
+    width: 10rem;
+    height: 3em;
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    
+    color: var(--blue-300);
+    border-radius: 6px;
+    border: solid 1.9px var(--blue-300);
+    background-color: var(--white);
+}
+
+.BlockRight {
+    flex: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+    
+    
+    box-shadow: 0px 10px 23px 1px rgba(0,0,0,0.1);
+}
+
+.RightConector{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    gap: 2rem;
+}
+
+.LeftConector{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    gap: 2rem;
+}
+
+.containerCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.imgCard{
+    
+    height: 2.1rem;
+}
+
+.containerImg1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 4.2rem;
+    height: 4.2rem;
+
+    border-radius: 15px;
+    background-color: #EFEAFF;
+}
+
+.containerImg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 4.2rem;
+    height: 4.2rem;
+
+    border-radius: 15px;
+    background-color: #ECFFDA;
+}
+
+.containerImg3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 4.2rem;
+    height: 4.2rem;
+
+    border-radius: 15px;
+    background-color: #DAE6FF;
+}
+
+.containerImg4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 4.2rem;
+    height: 4.2rem;
+
+    border-radius: 15px;
+    background-color: #FFE5DA;
+}
+
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--black);
+}

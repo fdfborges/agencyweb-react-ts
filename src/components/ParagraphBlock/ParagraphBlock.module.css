@@ -1,14 +1,14 @@
 .paragraphBlockContainer {
     display: flex;
     flex-direction: column;
-    padding-left: 11rem;
+    padding-left: 7rem;
     gap: 2rem;
     
 
     font-family: 'Poppins';
     font-style: normal;
     
-    /* or 72px */
+    margin-bottom: 10rem;
 
 }
 
