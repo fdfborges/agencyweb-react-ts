@@ -3,8 +3,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 6rem;
-
-    border: solid 2px aqua;
+    margin-bottom: 7rem;
 }
 
 
@@ -83,13 +82,13 @@
 }
 
 .AboutMeeting {
-    width: 25rem;
-    height: 13rem;
+    width: 28rem;
+    height: 15rem;
 }
 
 .AboutTwoPerson {
-    width: 25rem;
-    height: 13rem;
+    width: 30rem;
+    height: 15rem;
 }
 
 .ImgsBack {
