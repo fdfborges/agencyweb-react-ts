@@ -30,7 +30,7 @@ export function Header() {
       </div>
       <div className={styles.navigationContainer} id='navigationContainerHeader'>
         <Link to="/" onClick={scrollToAnchorHomePresentation} className={`${styles.navigationLinks} ${location.pathname === '/' ? styles.active : ''}`}>Home</Link>
-        <Link to="/sobrenos" className={`${styles.navigationLinks} ${location.pathname === '/sobrenos' ? styles.active : ''}`}>Sobre nós</Link>
+        <Link to="/sobre-nos" className={`${styles.navigationLinks} ${location.pathname === '/sobre-nos' ? styles.active : ''}`}>Sobre nós</Link>
         <Link to="" className={styles.navigationLinks}>Serviços</Link>
         <Link to="" className={styles.navigationLinks}>Blog</Link>
         <Link to="" className={styles.navigationLinks}>Contate-nos</Link>
