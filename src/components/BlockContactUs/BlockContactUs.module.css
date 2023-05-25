@@ -68,6 +68,10 @@
     background-color: var(--white);
 }
 
+.BlockLeft button:hover{
+    background-color: var(--gray-300);
+}
+
 .BlockRight {
     flex: 1.2;
     display: flex;
