@@ -3,7 +3,6 @@ import { ButtonBackToTop } from "../../components/ButtonBackToTop/ButtonBackToTo
 import { Conector } from "../../components/Conector/Conector";
 import { CustomersTrust } from "../../components/Customerstrust/CustomersTrust";
 import { HomePresentation } from "../../components/HomePresentation/HomePresentation";
-
 import { ServicesResume } from "../../components/ServicesResume/ServicesResume";
 import { ViewMore } from "../../components/Viewmore/ViewMore";
 

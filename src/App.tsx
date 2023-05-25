@@ -19,7 +19,7 @@ export function App() {
       <BrowserRouter>
         <Header />
         <ScrollToTop />
-        <Routes>  
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sobrenos" element={<AboutUs />} />
         </Routes>
