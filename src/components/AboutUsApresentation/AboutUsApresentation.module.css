@@ -1,0 +1,99 @@
+.AboutUsApresentation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6rem;
+
+    border: solid 2px aqua;
+}
+
+
+.containerUp {
+    display: flex;
+    gap: 2rem;
+
+    align-items: center;
+}
+
+.containeText {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+
+
+    gap: 1rem;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+
+
+    color: var(--black-500);
+}
+
+.containeText h2 {
+    text-align: left;
+    line-height: 1.5;
+
+}
+
+.containeText span:first-child {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--blue-300);
+}
+
+.containeText span:last-child {
+    width: 25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--gray-500);
+}
+
+.containerImages {
+    display: flex;
+    flex-direction: column;
+
+    width: 90vw;
+
+    gap: 2rem;
+
+
+}
+
+.ImgsUp {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    gap: 2rem;
+    margin-left: 2.2rem;
+}
+
+.AboutPostIt {
+    width: 15rem;
+    height: 15rem;
+}
+
+.AbouttwoPersonNote {
+    width: 18rem;
+    height: 18rem;
+}
+
+.AboutMeeting {
+    width: 25rem;
+    height: 13rem;
+}
+
+.AboutTwoPerson {
+    width: 25rem;
+    height: 13rem;
+}
+
+.ImgsBack {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
