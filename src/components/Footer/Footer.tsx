@@ -1,5 +1,5 @@
 import styles from './Footer.module.css';
-
+import { Link } from 'react-router-dom';
 import Logo from '../../../public/assets/logo.svg';
 import Facebook from '../../../public/assets/FooterImgs/facebook.svg';
 import Instagram from '../../../public/assets/FooterImgs/instagram.svg';
@@ -25,7 +25,7 @@ export function Footer() {
             <footer>
                 <section className={styles.content}>
                     <div className={styles.left}>
-                        <a onClick={scrollToAnchorHomePresentation}><img src={Logo} alt="" /></a>
+                        <Link to="/" onClick={scrollToAnchorHomePresentation}><img src={Logo} alt="" /></Link>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                         <p>@Lorem</p>
                     </div>
