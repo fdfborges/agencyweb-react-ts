@@ -7,6 +7,7 @@ import { Newsletter } from './components/Newsletter/Newsletter';
 import { Footer } from './components/Footer/Footer';
 
 import './global.css'
+import { ButtonBackToTop } from './components/ButtonBackToTop/ButtonBackToTop';
 
 
 
@@ -18,7 +19,9 @@ export function App() {
     <>
       <BrowserRouter>
         <Header />
+        <ButtonBackToTop />
         <ScrollToTop />
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sobre-nos" element={<AboutUs />} />
