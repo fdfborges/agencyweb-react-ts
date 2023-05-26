@@ -10,8 +10,6 @@ import './global.css'
 import { ButtonBackToTop } from './components/ButtonBackToTop/ButtonBackToTop';
 
 
-
-
 export function App() {
 
 

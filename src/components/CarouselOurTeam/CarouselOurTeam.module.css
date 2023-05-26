@@ -1,0 +1,33 @@
+.slidebarOurTeam{
+  /* overflow: hidden; */
+  height: 25rem;
+  border: solid 2px aqua;
+  box-sizing: border-box;
+  padding: 0 0 0 6.2rem;
+
+  
+
+  
+}
+
+.containerContent{
+  
+  box-sizing: border-box;
+
+}
+
+.containerImg{
+
+  
+}
+
+.dotola{
+  width: 100rem;
+  height: 100rem;
+  background-color: blue;
+  color: blue;
+}
+
+.containerImg img{
+  width: 18rem;
+}
